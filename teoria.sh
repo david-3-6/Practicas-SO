@@ -33,7 +33,7 @@ else
     echo $b es mayor que $a
 fi
 
-#las entradas de comandos se escriben con $0, $1..., la variable $* indica todas las entradas, si usamos "$@" 
+#las entradas de comandos se escriben con $0, $1..., la variable $* indica todas las entradas, si usamos "$@" toma en cuenta los espacios de la entradas.
 #si ponemos "una entrada" lo interpreta como una y no como 2 entradas. Si ponemos por ejemplo "$2" lo que meta lo interpreta como un solo parametro.
 
 #-----------------------------------------------------
